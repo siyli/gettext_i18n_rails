@@ -15,6 +15,10 @@ module GettextI18nRails
       html_safe_if_wanted super
     end
 
+    def p_(*args)
+      html_safe_if_wanted super
+    end
+
     def s_(*args)
       html_safe_if_wanted super
     end
